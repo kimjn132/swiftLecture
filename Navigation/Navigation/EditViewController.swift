@@ -26,7 +26,7 @@ class EditViewController: UIViewController {
     @IBOutlet weak var lblOnOff: UILabel!
     @IBOutlet weak var swIsOn: UISwitch!
     
-    //viewcontroller 인스턴스를 통해 이곳에 값을 넣어놓고 >>viddidload에 실행시킴
+    //viewcontroller 인스턴스를 통해 이곳에 값을 넣어놓고 >>viewdidload에 실행시킴
     var textWayValue: String = ""
 
     var textMessage: String = ""
